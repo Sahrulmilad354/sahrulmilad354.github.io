@@ -1,0 +1,24 @@
+boy {
+  min-height: 500px;
+}
+
+.navbar img {
+  padding-right: 0.8rem;
+}
+
+.jumbotron {
+  padding-top: 8rem;
+  background-color: #ffd966;
+}
+
+#products {
+  background-color: #ffd966;
+}
+
+#mengapa {
+  background-color: #ffd966;
+}
+
+#kontak {
+  background-color: #ffc107;
+}
