@@ -11,6 +11,9 @@
     <!-- Bootstrap Icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 
+    <!-- Library AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css">
 
@@ -73,11 +76,12 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/1.jpg" alt="Teknik Elektronika">
-      <h1 class="display-4">Teknik Elektronika Industri</h1>
-      <p class="lead">SMK Negeri 1 Losarang | Indramayu</p>
+      <img src="img/1.jpg" alt="Teknik Elektronika" class="logo">
+      <h1 class="display-4"></h1>
+      <p class="lead"></p>
 
       <!-- Carousel -->
+     <section class="carousel"> 
       <div class="container">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
@@ -106,6 +110,7 @@
           </button>
         </div>
       </div>
+     </section>
       <!-- Akhir Carousel -->
 
       
@@ -117,15 +122,15 @@
     <section id="about">
       <div class="container">
         <div class="row text-center mb-3">
-          <div class="col">
+          <div class="col"  data-aos="fade-down" data-aos-duration="1000">
             <h2>Pendahuluan</h2>
           </div>
         </div>
         <div class="row text-center">
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-right" data-aos-duration="1000">
             <h5>>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis adipisci saepe nemo sint sequi ea iusto accusantium reiciendis hic exercitationem, asperiores aspernatur dolor, a repellendus cum odit distinctio? Vitae repellendus quas laboriosam voluptates nihil officia suscipit excepturi blanditiis sapiente facere hic omnis, aliquid sed voluptatem cupiditate, quo nostrum, est incidunt.</h5>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000">
             <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, rerum, asperiores dolores ut soluta voluptatibus animi aperiam esse ipsa sint exercitationem. Temporibus unde maiores rem, exercitationem dolores tempore quo, quaerat amet hic neque reiciendis alias perspiciatis praesentium. Tempore magnam dolorem, placeat, repudiandae, consequatur natus quos accusantium eius excepturi rem sapiente minus odit. Voluptate, et cum.</h5>
           </div>
         </div>
@@ -139,13 +144,13 @@
     <section id="products">
       <div class="container">
         <div class="row text-center mb-3">
-          <div class="col">
+          <div class="col" data-aos="fade-down" data-aos-duration="1000">
             <h2>Produk</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="1000">
               <img src="img/products/01.png" class="card-img-top" alt="products 01">
               <div class="card-body">
                 <h5 class="card-title text-center">Arduino</h5>
@@ -155,7 +160,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
               <img src="img/products/02.png" class="card-img-top" alt="products 02">
               <div class="card-body">
                 <h5 class="card-title text-center">Rasberry Pi</h5>
@@ -165,7 +170,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="400">
               <img src="img/products/03.png" class="card-img-top" alt="products 03">
               <div class="card-body">
                 <h5 class="card-title text-center">Minimum System ATmega</h5>
@@ -175,7 +180,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
               <img src="img/products/04.png" class="card-img-top" alt="products 04">
               <div class="card-body">
                 <h5 class="card-title text-center">NodeMCU</h5>
@@ -185,7 +190,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="800">
               <img src="img/products/05.png" class="card-img-top" alt="products 05">
               <div class="card-body">
                 <h5 class="card-title  text-center">PLC Omron</h5>
@@ -204,37 +209,34 @@
       <section id="mitra">
         <div class="container">
           <div class="row text-center justify-content-center">
-            <div class="col md-4 mb-3">
+            <div class="col md-4 mb-3" data-aos="fade-down" data-aos-duration="1000">
               <h2>Mitra Kerjasama</h2>
             </div>
           </div>
           <div class="row justify-content-center">
-            <div class="col-md-2 mb-3">
+            <div class="col-md-2 mb-3" data-aos="zoom-in-up" data-aos-duration="1000">
                 <img src="img/mitra/01.png" class="card-img-top" alt="mitra01"  width="50">
             </div>
-            <div class="col-md-2 mb-3">
+            <div class="col-md-2 mb-3" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200">
                 <img src="img/mitra/02.png" class="card-img-top" alt="mitra02"  width="50">
             </div>
-            <div class="col-md-2 mb-3">
+            <div class="col-md-2 mb-3" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="300">
               <img src="img/mitra/03.png" class="card-img-top" alt="mitra03"  width="50">
             </div>
-            <div class="col-md-2 mb-3">
+            <div class="col-md-2 mb-3" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="400">
               <img src="img/mitra/04.png" class="card-img-top" alt="mitra04"  width="50">
             </div>
-            <div class="col-md-2 mb-3">
+            <div class="col-md-2 mb-3" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="500">
               <img src="img/mitra/05.png" class="card-img-top" alt="mitra05"  width="50">
             </div>
-            <div class="col-md-2 mb-3">
+            <div class="col-md-2 mb-3" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="600">
               <img src="img/mitra/06.png" class="card-img-top" alt="mitra06"  width="50">
             </div>
-            <div class="col-md-2 mb-3">
+            <div class="col-md-2 mb-3" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="700">
               <img src="img/mitra/07.png" class="card-img-top" alt="mitra07"  width="50">
             </div>
-            <div class="col-md-2 mb-3">
+            <div class="col-md-2 mb-3" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="800">
               <img src="img/mitra/08.png" class="card-img-top" alt="mitra08"  width="50">
-            </div>
-            <div class="col-md-2 mb-3">
-              <img src="img/mitra/09.png" class="card-img-top" alt="mitra09"  width="50">
             </div>
           </div>
         </div>  
@@ -246,7 +248,7 @@
     <section id="mengapa">
       <div class="container">
         <div class="row text-center mb-3">
-          <div class="col">
+          <div class="col" data-aos="fade-down" data-aos-duration="1000">
             <h2>Mengapa TEI</h2>
           </div>
         </div>
@@ -259,7 +261,7 @@
     <section>
       <div class="container">
         <div class="row">
-          <div class="col text-center mb-3">
+          <div class="col text-center mb-3" data-aos="fade-down" data-aos-duration="1000">
             <h2>
               Form Pesan
             </h2>
@@ -268,23 +270,23 @@
         <div class="row justify-content-center">
           <div class="col-md-8">
             <form>
-              <div class="mb-3">
+              <div class="mb-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
                 <label for="name" class="form-label">Nama Lengkap</label>
                 <input type="text" class="form-control" id="name" aria-describedby="name">
               </div>
-              <div class="mb-3">
+              <div class="mb-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
                 <label for="email" class="form-label">Email</label>
                 <input type="email" class="form-control" id="email">
               </div>
-              <div class="mb-3">
+              <div class="mb-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
                 <label for="whatsapp" class="form-label">No Whatsapp</label>
                 <input type="whatsapp" class="form-control" id="whatsapp">
               </div>
-              <div class="mb-3">
+              <div class="mb-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">
                 <label for="pesan" class="form-label">Pesan</label>
                 <textarea class="form-control" id="pesan" rows="3"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Kirim</button>
+              <button type="submit" class="btn btn-primary" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">Kirim</button>
             </form>
           </div>
         </div>
@@ -298,30 +300,30 @@
           <div class="row">
             <div class="col">
               <div class="row">
-                <div class="col-md-1">
+                <div class="col-md-1" data-aos="fade-up-right" data-aos-duration="1000">
                     <img src="img/1.jpg" class="card-img-top" alt="1"  width="50">
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
                   <p>Jl. Raya Pantura, Santing, Kec. Losarang, Kabupaten Indramayu, Jawa Barat 45253</p>
                 </div>
               </div>
               <div class="row mb-5">
-                <div class="col-md-1">
+                <div class="col-md-1" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200">
                   <i class="bi bi-facebook"></i>
                 </div>
-                <div class="col-md-1">
+                <div class="col-md-1" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200">
                   <i class="bi bi-instagram"></i>
                 </div>
-                <div class="col-md-1">
+                <div class="col-md-1" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200">
                   <i class="bi bi-twitter"></i>
                 </div>
-                <div class="col-md-1">
+                <div class="col-md-1" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200">
                   <i class="bi bi-youtube"></i>
                 </div>
-                <div class="col-md-1">
+                <div class="col-md-1" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200">
                   <i class="bi bi-linkedin"></i>
                 </div>
-                <div class="col-md-1">
+                <div class="col-md-1" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200">
                   <i class="bi bi-github"></i>
               </div>
               </div>
@@ -335,11 +337,32 @@
 
 
     <!-- Footer -->
-    <footer class="bg-warning fw-bold text-center pb-3">
+    <footer class="bg-warning fw-bold text-center pb-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
       <p>© 2022 TEI | Teknik Elektronika Industri</p>
     </footer>
     <!-- Akhir Footer -->
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+
+   <!-- Library AOS --> 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Platfrom GSap-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
+
+    <!-- GSap-->
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('.display-4', {duration:5, delay:1.5, text:'Teknik Elektronika Industri'});
+      gsap.to('.lead', {duration:5, delay:1.5, text:'SMK Negeri 1 Losarang | Indramayu'});
+      gsap.from('.navbar', {duration:1.5, y:'-100', opacity: 0, ease:'bounce'});
+      gsap.from('.logo', {duration:1.5, y:'-100', opacity: 0, ease:'bounce'});
+    </script>
+
   </body>
 </html>
