@@ -1,5 +1,5 @@
 boy {
-  min-height: 500px;
+  min-height: 600px;
 }
 
 .navbar img {
@@ -25,4 +25,12 @@ boy {
 
 #kontak {
   background-color: #ffc107;
+}
+
+#moto {
+  background-color: #ffd966;
+}
+
+#profil {
+  background-color: #ffd966;
 }
