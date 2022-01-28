@@ -62,3 +62,21 @@ boy {
 .alasan {
   color: rgb(58, 58, 58);
 }
+
+@media screen and (max-width: 576px) {
+  h2 {
+    color: aqua;
+    font-size: 120%;
+  }
+
+  h3 {
+    color: blue;
+    font-size: 100%;
+  }
+
+  .pendahuluan,
+  .alasan {
+    color: #ce0b9d;
+    font-size: 90%;
+  }
+}
