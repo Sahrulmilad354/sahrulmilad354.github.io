@@ -63,7 +63,7 @@ boy {
   color: rgb(58, 58, 58);
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   h2 {
     color: aqua;
     font-size: 120%;
