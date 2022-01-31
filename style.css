@@ -79,4 +79,17 @@ boy {
     color: #ce0b9d;
     font-size: 90%;
   }
+
+  .card h5 {
+    font-size: 100%;
+  }
+
+  .card p {
+    font-size: 80%;
+    text-align: justify;
+  }
+
+  .card a {
+    font-size: 80%;
+  }
 }
