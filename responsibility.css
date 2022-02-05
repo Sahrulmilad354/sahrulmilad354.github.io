@@ -1,0 +1,63 @@
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+  .btn {
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .jumbotron h1 {
+    font-size: 150%;
+  }
+
+  .jumbotron p {
+    font-size: 100%;
+  }
+
+  .jumbotron img {
+    width: 30%;
+  }
+
+  h2 {
+    color: aqua;
+    font-size: 120%;
+  }
+
+  h3 {
+    color: blue;
+    font-size: 100%;
+  }
+
+  .pendahuluan,
+  .alasan {
+    color: #ce0b9d;
+    font-size: 90%;
+    text-align: justify;
+  }
+
+  .card h5 {
+    font-size: 100%;
+  }
+
+  .card p {
+    font-size: 80%;
+    text-align: justify;
+  }
+
+  .card a {
+    font-size: 80%;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  .col-md-6 a {
+    width: 80%;
+  }
+}
