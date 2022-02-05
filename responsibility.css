@@ -5,6 +5,35 @@
 }
 
 @media screen and (max-width: 576px) {
+  .jumbotron h1 {
+    font-size: 250%;
+  }
+
+  .jumbotron p {
+    font-size: 150%;
+  }
+
+  .jumbotron img {
+    width: 30%;
+  }
+  
+  h2 {
+    color: rgb(53, 8, 158);
+    font-size: 150%;
+  }
+
+  h3 {
+    color: rgb(228, 10, 10);
+    font-size: 120%;
+  }
+
+  .pendahuluan,
+  .alasan {
+    color: #0ea327;
+    font-size: 110%;
+    text-align: justify;
+  }
+  
   .btn {
     font-size: 80%;
   }
