@@ -1,10 +1,154 @@
-@media screen and (max-width: 1200px) {
+/* Breakpoint Large */
+@media screen and (max-width: 1400px) {
+  .jumbotron h1 {
+    font-size: 250%;
+  }
+
+  .jumbotron p {
+    font-size: 150%;
+  }
+
+  h2 {
+    color: rgb(163, 6, 92);
+    font-size: 150%;
+  }
+
+  h3 {
+    color: rgb(216, 74, 18);
+    font-size: 130%;
+  }
+
+  #visimisi h5 {
+    color: #08626e;
+    font-size: 110%;
+    text-align: justify !important;
+  }
+
+  #moto h5 {
+    color: #bbc710;
+    font-size: 110%;
+    text-align: center;
+  }
+
+  #filosofi h5 {
+    color: #0db2b8;
+    font-size: 110%;
+  }
+
+  .pendahuluan {
+    color: #1a04e0;
+    font-size: 110%;
+    text-align: center;
+  }
+
+  .alasan {
+    color: #1a04e0;
+    font-size: 110%;
+    text-align: justify;
+  }
+
+  .card h5 {
+    font-size: 120%;
+  }
+
+  .card p {
+    font-size: 100%;
+    text-align: justify;
+  }
+
+  .card a {
+    font-size: 80%;
+  }
+
+  #kontak .col-lg-4 {
+    font-size: 90%;
+  }
+
+  #kontak img {
+    width: 100%;
+  }
+
+  #kontak .col-lg-1 {
+    font-size: 80%;
+  }
+
+  #footer h5 {
+    font-size: 90%;
+  }
 }
 
+/* Breakpoint Midle */
+@media screen and (max-width: 992px) {
+  .jumbotron h1 {
+    font-size: 250%;
+  }
+
+  .jumbotron p {
+    font-size: 150%;
+  }
+
+  h2 {
+    color: rgb(6, 113, 163);
+    font-size: 150%;
+  }
+
+  h3 {
+    color: rgb(111, 28, 114);
+    font-size: 130%;
+  }
+
+  #visimisi h5 {
+    color: #c1ce13;
+    font-size: 110%;
+    text-align: justify !important;
+  }
+
+  #moto h5 {
+    color: #085340;
+    font-size: 110%;
+    text-align: center;
+  }
+
+  #filosofi h5 {
+    color: #b80d1b;
+    font-size: 110%;
+  }
+
+  .pendahuluan,
+  .alasan {
+    color: #04d9e0;
+    font-size: 110%;
+    text-align: justify;
+  }
+
+  .card h5 {
+    font-size: 120%;
+  }
+
+  .card p {
+    font-size: 100%;
+    text-align: justify;
+  }
+
+  .card a {
+    font-size: 80%;
+  }
+
+  #kontak .col-lg-4 {
+    font-size: 90%;
+  }
+
+  #kontak img {
+    width: 70%;
+  }
+
+  #footer h5 {
+    font-size: 90%;
+  }
+}
+
+/* Breakpoint Small*/
 @media screen and (max-width: 768px) {
-}
-
-@media screen and (max-width: 576px) {
   .jumbotron h1 {
     font-size: 250%;
   }
@@ -16,7 +160,87 @@
   .jumbotron img {
     width: 30%;
   }
-  
+
+  h2 {
+    color: rgb(202, 15, 140);
+    font-size: 150%;
+  }
+
+  h3 {
+    color: rgb(228, 97, 10);
+    font-size: 130%;
+    text-align: center !important;
+  }
+
+  #visimisi h5 {
+    color: #ce8fb2;
+    font-size: 110%;
+    text-align: justify !important;
+  }
+
+  #moto h5 {
+    color: #0879eb;
+    font-size: 110%;
+    text-align: center;
+  }
+
+  #filosofi h5 {
+    color: #4cb80d;
+    font-size: 110%;
+    text-align: center !important;
+  }
+
+  #filosofi img {
+    width: 15%;
+  }
+
+  .pendahuluan,
+  .alasan {
+    color: #c5b207;
+    font-size: 110%;
+    text-align: justify;
+  }
+
+  .card h5 {
+    font-size: 120%;
+  }
+
+  .card p {
+    font-size: 100%;
+    text-align: justify;
+  }
+
+  .card a {
+    font-size: 80%;
+  }
+
+  #kontak img {
+    width: 12%;
+  }
+
+  #kontak .col-lg-4 {
+    font-size: 90%;
+  }
+
+  #footer h5 {
+    font-size: 90%;
+  }
+}
+
+/* Breakpoint Extra Small*/
+@media screen and (max-width: 576px) {
+  .jumbotron h1 {
+    font-size: 200%;
+  }
+
+  .jumbotron p {
+    font-size: 150%;
+  }
+
+  .jumbotron img {
+    width: 30%;
+  }
+
   h2 {
     color: rgb(53, 8, 158);
     font-size: 150%;
@@ -25,6 +249,29 @@
   h3 {
     color: rgb(228, 10, 10);
     font-size: 120%;
+    text-align: center !important;
+  }
+
+  #visimisi h5 {
+    color: #575e5f;
+    font-size: 110%;
+    text-align: justify !important;
+  }
+
+  #moto h5 {
+    color: #082e53;
+    font-size: 110%;
+    text-align: center;
+  }
+
+  #filosofi h5 {
+    color: #0db2b8;
+    font-size: 110%;
+    text-align: center !important;
+  }
+
+  #filosofi img {
+    width: 15%;
   }
 
   .pendahuluan,
@@ -33,12 +280,29 @@
     font-size: 110%;
     text-align: justify;
   }
-  
+
   .btn {
-    font-size: 80%;
+    font-size: 90%;
+  }
+
+  #kontak img {
+    width: 12%;
+  }
+
+  #kontak .col-lg-4 {
+    font-size: 70%;
+  }
+
+  #kontak .col-lg-1 {
+    font-size: 70%;
+  }
+
+  #footer h5 {
+    font-size: 90%;
   }
 }
 
+/* Breakpoint */
 @media screen and (max-width: 420px) {
   .jumbotron h1 {
     font-size: 150%;
@@ -60,6 +324,29 @@
   h3 {
     color: blue;
     font-size: 100%;
+    text-align: center !important;
+  }
+
+  #visimisi h5 {
+    color: #0ea327;
+    font-size: 100%;
+    text-align: justify !important;
+  }
+
+  #moto h5 {
+    color: #0e67a3;
+    font-size: 100%;
+    text-align: center;
+  }
+
+  #filosofi h5 {
+    color: #ce0b9d;
+    font-size: 100%;
+    text-align: center !important;
+  }
+
+  #filosofi img {
+    width: 15%;
   }
 
   .pendahuluan,
@@ -82,14 +369,6 @@
     font-size: 80%;
   }
 
-  .card {
-    width: 80%;
-  }
-
-  .col-md-6 a {
-    width: 80%;
-  }
-
   #kontak img {
     width: 10%;
   }
@@ -98,8 +377,8 @@
     font-size: 70%;
   }
 
-  #footer h5 {
+  #footer h5,
+  p {
     font-size: 80%;
-  }
   }
 }
